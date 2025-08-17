@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour {
 
+
+
     public PlayerMovement movement;
     // Update is called once per frame
 
@@ -9,7 +11,7 @@ public class PlayerCollision : MonoBehaviour {
 
         if(collisionInfo.collider.tag == "Obstical") {
             movement.enabled = false;
-
+            FindObjectOfType<GameManager>().EndGame();
         }
     }
 
