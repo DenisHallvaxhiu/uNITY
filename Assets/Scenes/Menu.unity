@@ -394,7 +394,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: QubeRacing
+  m_text: QubicRacing
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b7a0a06153dab8f41b3cda6e89961664, type: 2}
   m_sharedMaterial: {fileID: -1456903649245155094, guid: b7a0a06153dab8f41b3cda6e89961664, type: 2}
